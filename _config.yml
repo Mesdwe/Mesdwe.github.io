@@ -1,5 +1,50 @@
-remote_theme: pages-themes/hacker@v0.2.0
-title: Nowhere
-description: Just a test
+title: Damien He's Portfolio
+description: >-
+  Generalist Games Programmer
+
+theme: jekyll-theme-hacker
+
+url: "http://localhost:4000"
+baseurl: ""                    
+
+sass:
+  style: compressed
+  quiet_deps: true
+
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-polyglot
+
+languages: ["en", "zh"]
+default_lang: "en"
+parallel_localization: false          # Windows 
+lang_from_path: true                  
+
+exclude_from_localization:
+  - css
+  - js
+  - images
+  - favicon.ico
+  - assets
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+
+lang_names:
+  en: English
+  zh: 中文
+
+show_downloads: false                
+
+future: true
+
+
+header_pages:
+  - index.md
+  - about.md
+  - projects.md
+  # - blog.md   
+include:
+  - _pages
