@@ -1,14 +1,19 @@
 :root {
-  --portfolio-ink: #151515;
-  --portfolio-muted: #5d6468;
-  --portfolio-line: #e5e1dc;
-  --portfolio-surface: #fbfaf7;
-  --portfolio-accent: #0f766e;
-  --portfolio-accent-strong: #0b4f4a;
+  --portfolio-ink: #f4f7f6;
+  --portfolio-muted: #a9b7b4;
+  --portfolio-line: #22312f;
+  --portfolio-surface: #071110;
+  --portfolio-surface-raised: #101b1a;
+  --portfolio-accent: #2dd4bf;
+  --portfolio-accent-strong: #5eead4;
 }
 
 .md-main {
   background: var(--portfolio-surface);
+}
+
+.md-typeset {
+  color: var(--portfolio-ink);
 }
 
 .md-content__inner {
@@ -50,6 +55,7 @@
 }
 
 .button {
+  background: rgba(16, 27, 26, 0.72);
   border: 1px solid var(--portfolio-line);
   border-radius: 6px;
   color: var(--portfolio-ink) !important;
@@ -63,11 +69,17 @@
 .button-primary {
   background: var(--portfolio-accent);
   border-color: var(--portfolio-accent);
-  color: white !important;
+  color: #041413 !important;
 }
 
 .button:hover {
   border-color: var(--portfolio-accent-strong);
+  color: var(--portfolio-accent-strong) !important;
+}
+
+.button-primary:hover {
+  background: var(--portfolio-accent-strong);
+  color: #041413 !important;
 }
 
 .project-grid {
@@ -78,7 +90,7 @@
 }
 
 .project-card {
-  background: #fff;
+  background: var(--portfolio-surface-raised);
   border: 1px solid var(--portfolio-line);
   border-radius: 8px;
   color: inherit !important;
@@ -108,8 +120,9 @@
 
 .project-card:hover {
   border-color: var(--portfolio-accent);
+  box-shadow: 0 16px 34px rgba(0, 0, 0, 0.22);
   transform: translateY(-2px);
-  transition: border-color 160ms ease, transform 160ms ease;
+  transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
 }
 
 .text-only {
@@ -117,7 +130,7 @@
 }
 
 .eyebrow {
-  color: var(--portfolio-accent-strong);
+  color: var(--portfolio-accent);
   display: block;
   font-size: 0.68rem;
   font-weight: 800;
@@ -144,7 +157,7 @@
 }
 
 .tag-list span {
-  background: #fff;
+  background: var(--portfolio-surface-raised);
   border: 1px solid var(--portfolio-line);
   border-radius: 999px;
   color: var(--portfolio-ink);
@@ -154,11 +167,18 @@
 }
 
 .md-typeset blockquote {
-  background: #fff;
-  border-left-color: var(--portfolio-accent);
+  background: var(--portfolio-surface-raised);
   border-radius: 0 8px 8px 0;
   color: var(--portfolio-ink);
   padding: 0.8rem 1rem;
+}
+
+[dir="ltr"] .md-typeset blockquote {
+  border-left: 0.2rem solid var(--portfolio-accent);
+}
+
+[dir="rtl"] .md-typeset blockquote {
+  border-right: 0.2rem solid var(--portfolio-accent);
 }
 
 @media screen and (max-width: 640px) {

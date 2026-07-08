@@ -5,6 +5,7 @@ repo_url: https://github.com/Mesdwe/Mesdwe.github.io
 repo_name: Mesdwe/Mesdwe.github.io
 
 theme:
+  name: material
   palette:
     scheme: slate
     primary: teal
