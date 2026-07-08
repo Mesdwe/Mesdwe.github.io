@@ -5,3 +5,27 @@ site/
 .agents/
 __pycache__/
 .venv/
+_site/
+.jekyll-cache/
+.jekyll-metadata
+
+.bundle/
+vendor/bundle/
+Gemfile.lock 
+
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+node_modules/   # 如果你有 npm
+npm-debug.log
+yarn-error.log
+
+*.log
+test/
+tmp/
