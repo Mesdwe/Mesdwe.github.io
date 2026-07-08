@@ -1,4 +1,14 @@
 site/
+about/
+assets/
+projects/
+search/
+stylesheets/
+404.html
+index.html
+sitemap.xml
+sitemap.xml.gz
+.nojekyll
 .cache/
 .python-packages/
 .mkdocs-packages/
