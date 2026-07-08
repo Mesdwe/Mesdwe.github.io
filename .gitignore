@@ -1,6 +1,7 @@
 site/
 .cache/
 .python-packages/
+.mkdocs-packages/
 .agent/
 .agents/
 __pycache__/
