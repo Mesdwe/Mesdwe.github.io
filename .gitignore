@@ -1,0 +1,7 @@
+site/
+.cache/
+.python-packages/
+.agent/
+.agents/
+__pycache__/
+.venv/
