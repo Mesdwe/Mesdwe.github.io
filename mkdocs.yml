@@ -7,9 +7,9 @@ repo_name: Mesdwe/Mesdwe.github.io
 theme:
   name: material
   palette:
-    - scheme: default
-      primary: black
-      accent: teal
+    - scheme: slate
+      primary: teal
+      accent: black
   font:
     text: Inter
     code: JetBrains Mono
