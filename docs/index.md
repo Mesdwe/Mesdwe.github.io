@@ -5,7 +5,7 @@ hide:
 ---
 
 # Damien He
-<p class="site-subtitle" data-header-title="Playable Systems">Playable Systems</p>
+<span data-header-title="Playable Systems" hidden></span>
 
 <p class="lede">Games programmer building gameplay, backend tools, UI systems, and procedural audio experiments.</p>
 
