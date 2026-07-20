@@ -1,8 +1,6 @@
 site_name: Damien He Portfolio
 site_url: https://mesdwe.github.io/
 site_description: Games programmer portfolio for Damien He.
-repo_url: https://github.com/Mesdwe/Mesdwe.github.io
-repo_name: Mesdwe/Mesdwe.github.io
 
 theme:
   name: material
@@ -15,14 +13,16 @@ theme:
     code: JetBrains Mono
   features:
     - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
     - navigation.top
     - content.code.copy
 
 nav:
-  - Portfolio: index.md
-  - About Me: about.md
+  - Home: index.md
   - Projects:
+      - All Projects: projects/index.md
       - "Hunt: Showdown": projects/hunt-showdown.md
       - Down Current: projects/down-current.md
       - Florere Memoriae: projects/florere-memoriae.md
@@ -30,6 +30,10 @@ nav:
       - Animal Chess: projects/animal-chess.md
       - Jalopy: projects/jalopy.md
       - French Kiss: projects/french-kiss.md
+  - Writing: writing/index.md
+  - Lab: lab/index.md
+  - About: about.md
+  - CV: https://d0fc5bfd-ec07-4057-ae45-9881dede96c4.filesusr.com/ugd/57c5d6_19820915433b4fad950fcbe50ae07725.pdf
 
 extra_css:
   - stylesheets/extra.css

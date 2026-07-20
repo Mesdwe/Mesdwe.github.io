@@ -20,6 +20,11 @@
   max-width: 1120px;
 }
 
+/* Keep the landing page visually centred when both page sidebars are hidden. */
+.md-content--post > .md-content__inner {
+  max-width: 1120px;
+}
+
 .md-typeset h1 {
   color: var(--portfolio-ink);
   font-size: clamp(2.4rem, 7vw, 5.4rem);
