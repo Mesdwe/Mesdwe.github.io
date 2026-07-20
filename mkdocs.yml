@@ -1,6 +1,6 @@
-site_name: Damien He Portfolio
+site_name: Damien He - Playable Systems
 site_url: https://mesdwe.github.io/
-site_description: Games programmer portfolio for Damien He.
+site_description: Game programming portfolio, technical notes, and experiments by Damien He.
 
 theme:
   name: material
@@ -37,6 +37,9 @@ nav:
 
 extra_css:
   - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/header-title.js
 
 markdown_extensions:
   - attr_list
