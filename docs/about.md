@@ -57,7 +57,9 @@ Undergraduate study in computer games technology, with essential programming ski
 
 ## Links
 
-- [Download CV](https://d0fc5bfd-ec07-4057-ae45-9881dede96c4.filesusr.com/ugd/57c5d6_19820915433b4fad950fcbe50ae07725.pdf)
-- [LinkedIn](https://www.linkedin.com/in/damien-he-882567228/)
-- [GitHub](https://github.com/Mesdwe)
-- [Itch.io](https://randomsalmon.itch.io/)
+<div class="hero-actions">
+  <a class="button button-primary" href="https://d0fc5bfd-ec07-4057-ae45-9881dede96c4.filesusr.com/ugd/57c5d6_19820915433b4fad950fcbe50ae07725.pdf">Download CV</a>
+  <a class="button" href="https://www.linkedin.com/in/damien-he-882567228/">LinkedIn</a>
+  <a class="button" href="https://github.com/Mesdwe">GitHub</a>
+  <a class="button" href="https://randomsalmon.itch.io/">Itch.io</a>
+</div>

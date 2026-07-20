@@ -87,7 +87,9 @@ Here, you will find selected projects I have worked on, my CV, and ways to get i
 
 ## Contact
 
-- Email: [damienhelx@outlook.com](mailto:damienhelx@outlook.com)
-- LinkedIn: [Damien He](https://www.linkedin.com/in/damien-he-882567228/)
-- GitHub: [Mesdwe](https://github.com/Mesdwe)
-- Itch.io: [randomsalmon](https://randomsalmon.itch.io/)
+<div class="hero-actions">
+  <a class="button button-primary" href="mailto:damienhelx@outlook.com">Email</a>
+  <a class="button" href="https://www.linkedin.com/in/damien-he-882567228/">LinkedIn</a>
+  <a class="button" href="https://github.com/Mesdwe">GitHub</a>
+  <a class="button" href="https://randomsalmon.itch.io/">Itch.io</a>
+</div>
