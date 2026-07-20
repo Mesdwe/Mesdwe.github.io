@@ -12,7 +12,7 @@ _site/
 
 .bundle/
 vendor/bundle/
-Gemfile.lock 
+Gemfile.lock
 
 .DS_Store
 Thumbs.db
@@ -23,7 +23,8 @@ Thumbs.db
 *.sublime-project
 *.sublime-workspace
 
-node_modules/   # 如果你有 npm
+# Node/npm
+node_modules/
 npm-debug.log
 yarn-error.log
 
