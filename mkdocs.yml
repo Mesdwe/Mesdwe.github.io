@@ -1,6 +1,7 @@
 site_name: Damien He - Playable Systems
 site_url: https://mesdwe.github.io/
 site_description: Game programming portfolio, technical notes, and experiments by Damien He.
+copyright: Copyright &copy; 2026 Damien He
 
 theme:
   name: material
@@ -40,6 +41,18 @@ extra_css:
 
 extra_javascript:
   - javascripts/header-title.js
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/damien-he-882567228/
+      name: Damien He on LinkedIn
+    - icon: fontawesome/brands/github
+      link: https://github.com/Mesdwe
+      name: Damien He on GitHub
+    - icon: fontawesome/brands/itch-io
+      link: https://randomsalmon.itch.io/
+      name: Damien He on Itch.io
 
 markdown_extensions:
   - attr_list

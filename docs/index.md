@@ -18,11 +18,3 @@ hide:
 I am a generalist games programmer previously at Stainless Games. This site collects selected projects, technical notes, and experiments around gameplay systems, UI, backend systems, and procedural audio.
 
 Here, you will find the work I have shipped or prototyped, the systems I am learning from, my CV, and ways to get in touch.
-
-## Links
-
-<div class="hero-actions">
-  <a class="button" href="https://www.linkedin.com/in/damien-he-882567228/">LinkedIn</a>
-  <a class="button" href="https://github.com/Mesdwe">GitHub</a>
-  <a class="button" href="https://randomsalmon.itch.io/">Itch.io</a>
-</div>
