@@ -16,7 +16,6 @@ theme:
     - navigation.instant
     - navigation.tabs
     - navigation.tabs.sticky
-    - navigation.sections
     - navigation.top
     - content.code.copy
 
@@ -25,12 +24,14 @@ nav:
   - Projects:
       - All Projects: projects/index.md
       - "Hunt: Showdown": projects/hunt-showdown.md
-      - Down Current: projects/down-current.md
-      - Florere Memoriae: projects/florere-memoriae.md
-      - "Wickie: Defender of Kitties": projects/wickie.md
-      - Animal Chess: projects/animal-chess.md
-      - Jalopy: projects/jalopy.md
-      - French Kiss: projects/french-kiss.md
+      - Student Projects: 
+          - Down Current: projects/down-current.md
+          - Florere Memoriae: projects/florere-memoriae.md
+          - "Wickie: Defender of Kitties": projects/wickie.md
+      - Game Jams:
+          - Animal Chess: projects/animal-chess.md
+          - Jalopy: projects/jalopy.md
+          - French Kiss: projects/french-kiss.md
   - Writing: writing/index.md
   - Lab: lab/index.md
   - About: about.md
