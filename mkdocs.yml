@@ -32,7 +32,8 @@ nav:
           - Animal Chess: projects/animal-chess.md
           - Jalopy: projects/jalopy.md
           - French Kiss: projects/french-kiss.md
-  - Writing: writing/index.md
+  - Writing:
+      - writing/index.md
   - Lab: lab/index.md
   - About: about.md
   - CV: https://d0fc5bfd-ec07-4057-ae45-9881dede96c4.filesusr.com/ugd/57c5d6_19820915433b4fad950fcbe50ae07725.pdf
@@ -42,8 +43,8 @@ plugins:
   - blog:
       blog_dir: writing
       post_url_format: "{slug}"
-      archive: false
-      categories: false
+      archive: true
+      categories: true
 
 extra_css:
   - stylesheets/extra.css
