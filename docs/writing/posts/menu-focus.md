@@ -1,8 +1,15 @@
+---
+date: 2026-11-24
+slug: menu-focus
+categories:
+  - UI & Tools
+---
+
 # Where Should Menu Focus Go?
 
-*November 24, 2026 · UI & Tools*
-
 Open an inventory with a controller, select an item, and bring up its action menu. If you close that menu without choosing anything, the next press of the D-pad should move from the item you were looking at. Losing focus here can make a working controller feel unresponsive.
+
+<!-- more -->
 
 ## Give each screen a starting point
 

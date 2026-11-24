@@ -2,13 +2,8 @@
 
 <p class="lede">Technical notes, development breakdowns, and reflections on building games and game technology.</p>
 
-## Articles
-
-- [Where Should Menu Focus Go?](menu-focus.md) · November 24, 2026
-
-  How to keep controller navigation predictable when menus open, close, or change.
-
-## Planned Topics
+<details markdown="1">
+<summary>Planned Topics</summary>
 
 <div class="project-grid">
   <article class="project-card text-only">
@@ -22,3 +17,5 @@
     <p>Experiments connecting runtime game state to responsive sound systems.</p>
   </article>
 </div>
+
+</details>
